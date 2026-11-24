@@ -1,8 +1,8 @@
 {% extend 'Base.html' %}
-{% block title %}Student Registration Portal{% endblock %}
+{% block title %}Member Registration Portal{% endblock %}
 
 {% block content %}
-<h4>Student Registration Form</h4>
+<h4>Member Account Creation Form</h4>
 <div class="registration-form">
   {{ form.hidden_tag() }}
 
@@ -20,5 +20,4 @@
 
   {{ form.submit(class="btn") }}
 </div>
-
 {% endblock %}
